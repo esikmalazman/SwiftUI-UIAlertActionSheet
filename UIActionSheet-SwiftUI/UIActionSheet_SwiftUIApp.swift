@@ -11,7 +11,7 @@ import SwiftUI
 struct UIActionSheet_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ConfirmationDialogView()
         }
     }
 }

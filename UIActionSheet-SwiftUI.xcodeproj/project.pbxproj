@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7F987BC929A3F1CF009732CC /* UIActionSheet_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F987BC829A3F1CF009732CC /* UIActionSheet_SwiftUIApp.swift */; };
-		7F987BCB29A3F1CF009732CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F987BCA29A3F1CF009732CC /* ContentView.swift */; };
+		7F987BCB29A3F1CF009732CC /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F987BCA29A3F1CF009732CC /* ConfirmationDialogView.swift */; };
 		7F987BCD29A3F1D1009732CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F987BCC29A3F1D1009732CC /* Assets.xcassets */; };
 		7F987BD029A3F1D1009732CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F987BCF29A3F1D1009732CC /* Preview Assets.xcassets */; };
+		7F987BD729A3F4C9009732CC /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F987BD629A3F4C9009732CC /* ActionSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F987BC529A3F1CF009732CC /* UIActionSheet-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIActionSheet-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F987BC829A3F1CF009732CC /* UIActionSheet_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActionSheet_SwiftUIApp.swift; sourceTree = "<group>"; };
-		7F987BCA29A3F1CF009732CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F987BCA29A3F1CF009732CC /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 		7F987BCC29A3F1D1009732CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F987BCF29A3F1D1009732CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F987BD629A3F4C9009732CC /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				7F987BC829A3F1CF009732CC /* UIActionSheet_SwiftUIApp.swift */,
-				7F987BCA29A3F1CF009732CC /* ContentView.swift */,
+				7F987BCA29A3F1CF009732CC /* ConfirmationDialogView.swift */,
 				7F987BCC29A3F1D1009732CC /* Assets.xcassets */,
 				7F987BCE29A3F1D1009732CC /* Preview Content */,
+				7F987BD629A3F4C9009732CC /* ActionSheetView.swift */,
 			);
 			path = "UIActionSheet-SwiftUI";
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F987BCB29A3F1CF009732CC /* ContentView.swift in Sources */,
+				7F987BCB29A3F1CF009732CC /* ConfirmationDialogView.swift in Sources */,
+				7F987BD729A3F4C9009732CC /* ActionSheetView.swift in Sources */,
 				7F987BC929A3F1CF009732CC /* UIActionSheet_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
